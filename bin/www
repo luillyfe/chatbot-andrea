@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+const app  = require('../app')
+const port = process.env.PORT || 8000
+
+app.set('port', port)
+app.listen(port, () => {
+    console.log(`I am not a bot YET! http://localhost:${port}`)
+})

@@ -1,0 +1,31 @@
+{
+  "name": "chatbot-andrea",
+  "version": "1.0.0",
+  "description": "A bankig chatbot based on bankbot project.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/luillyfe/chatbot-andrea.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "banking",
+    "bots"
+  ],
+  "author": "Fermin Blanco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luillyfe/chatbot-andrea/issues"
+  },
+  "homepage": "https://github.com/luillyfe/chatbot-andrea#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "path": "^0.12.7"
+  }
+}
