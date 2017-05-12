@@ -1,6 +1,7 @@
 
 .idea/
 node_modules/
+app/jspm_packages
 
 # Logs and databases #
 ######################

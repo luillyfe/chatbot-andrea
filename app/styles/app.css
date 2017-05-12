@@ -1,0 +1,52 @@
+
+/*-- Border and padding are taking in account in box dimension --*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #3a3a3a;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: 'Bree Serif', serif;
+}
+
+/* ---- Layout containers ---- */
+.wrapper {
+    margin: 2em 1em 3em 1em;
+    padding: 1em 0;
+    background: url("../assets/TheEdinburghCastle640x480.png");
+}
+
+.banner {
+    text-align: right;
+}
+
+.greetings, .main-content, .main-footer {
+    text-align: center;
+}
+
+.greetings {
+    text-align: center;
+    margin-bottom: 150px;
+    margin-top: 1em;
+}
+
+.main-content {
+    margin-bottom: 1em;
+}
+
+/* ---- Page elements ---- */
+.banner img {
+    display: inline-block;
+    width: 70%;
+    height: 100px;
+    margin-top: 150px;
+
+    border: hidden;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+
+}
