@@ -35,6 +35,10 @@
       "baseURL": "app"
     },
     "dependencies": {
+      "angular": "github:angular/bower-angular@^1.6.4",
+      "angular-material": "github:angular/bower-material@^1.1.4",
+      "angular-messages": "github:angular/bower-angular-messages@^1.6.4",
+      "angular-ui-router": "github:angular-ui/angular-ui-router-bower@^1.0.3",
       "normalize": "npm:normalize@^0.3.1",
       "normalize.css": "github:necolas/normalize.css@^7.0.0"
     },

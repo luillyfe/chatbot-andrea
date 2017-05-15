@@ -4,27 +4,29 @@
     <title>Andrea: A chatbot for bankings</title>
     <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
     <link href="jspm_packages/github/necolas/normalize.css@7.0.0/normalize.css" rel="stylesheet" type="text/css">
+    <link href="jspm_packages/github/angular/bower-material@1.1.4/angular-material.min.css" rel="stylesheet" type="text/css">
     <link href='styles/app.css' rel='stylesheet' type='text/css'>
+
+    <script type="application/javascript" src="jspm_packages/github/angular/bower-angular@1.6.4/angular.min.js" ></script>
+    <script type="application/javascript" src="jspm_packages/github/angular-ui/angular-ui-router-bower@1.0.3/release/angular-ui-router.min.js" ></script>
+
+    <script type="application/javascript" src="jspm_packages/github/angular/bower-material@1.1.4/angular-material.min.js" ></script>
+    <script type="application/javascript" src="jspm_packages/github/angular/bower-angular-animate@1.6.4/angular-animate.min.js" ></script>
+    <script type="application/javascript" src="jspm_packages/github/angular/bower-angular-aria@1.6.4/angular-aria.min.js" ></script>
+    <script type="application/javascript" src="jspm_packages/github/angular/bower-angular-messages@1.6.4/angular-messages.min.js" ></script>
+
+    <script type="application/javascript" src="app.js" ></script>
+    <script type="application/javascript" src="chat/chat.js"></script>
 </head>
 
-<body>
-<div class="wrapper">
-    <div class="banner">
-        <img class="logo" src="assets/banner250x480.jpg" alt="Banking">
-    </div>
-    <div class="greetings">
-        <h1 class="headline">Inbest</h1>
-        <span class="tagline">Empower easy banking</span>
-    </div>
+<body ng-app="chatbot-andrea">
+    <div class="wrapper">
 
-    <div class="main-content">
-        <p>Already have an account?</p>
-        <h2>Sign In</h2>
-    </div>
+        <div ui-view></div>
 
-    <footer class="main-footer">
-        <span>&copy;2017 That is not what I mean</span>
-    </footer>
-</div>
+        <footer class="main-footer">
+            <span>&copy;2017 That is not what I mean</span>
+        </footer>
+    </div>
 </body>
 </html>

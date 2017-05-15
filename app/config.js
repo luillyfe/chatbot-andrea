@@ -8,8 +8,27 @@ System.config({
   },
 
   map: {
+    "angular": "github:angular/bower-angular@1.6.4",
+    "angular-material": "github:angular/bower-material@1.1.4",
+    "angular-messages": "github:angular/bower-angular-messages@1.6.4",
+    "angular-ui-router": "github:angular-ui/angular-ui-router-bower@1.0.3",
     "normalize": "npm:normalize@0.3.1",
     "normalize.css": "github:necolas/normalize.css@7.0.0",
+    "github:angular/bower-angular-animate@1.6.4": {
+      "angular": "github:angular/bower-angular@1.6.4"
+    },
+    "github:angular/bower-angular-aria@1.6.4": {
+      "angular": "github:angular/bower-angular@1.6.4"
+    },
+    "github:angular/bower-angular-messages@1.6.4": {
+      "angular": "github:angular/bower-angular@1.6.4"
+    },
+    "github:angular/bower-material@1.1.4": {
+      "angular": "github:angular/bower-angular@1.6.4",
+      "angular-animate": "github:angular/bower-angular-animate@1.6.4",
+      "angular-aria": "github:angular/bower-angular-aria@1.6.4",
+      "css": "github:systemjs/plugin-css@0.1.33"
+    },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
     },
