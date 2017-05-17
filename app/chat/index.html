@@ -1,9 +1,9 @@
 <div class="messages">
-    <div class="message andrea">
-        <p>Hi, you! I am Andrea, your Personal assistance</p>
+    <div class="message andrea" ng-repeat="message in ch.andreaMessages | orderBy:'timestamp'">
+        <p>{{message.message}}</p>
     </div>
-    <div class="message user">
-        <p>Hi, Andrea! how is it going?</p>
+    <div class="message user" ng-repeat="message in ch.meMessages | orderBy:'timestamp'">
+        <p>{{message.message}}</p>
     </div>
-    <chat></chat>
+    <user-input></user-input>
 </div>

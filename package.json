@@ -25,7 +25,8 @@
   "homepage": "https://github.com/luillyfe/chatbot-andrea#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "morgan": "^1.8.1"
   },
   "devDependencies": {
     "jspm": "^0.16.53"

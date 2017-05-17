@@ -5,7 +5,9 @@ angular.module('chatbot-andrea', ['ngMaterial', 'ngMessages', 'ui.router'])
         $stateProvider
             .state('home', {
                 url: '/home',
-                templateUrl: 'chat/index.html'
+                templateUrl: 'chat/index.html',
+                controller: 'chat',
+                controllerAs: 'ch'
             })
             .state('index', {
                 url: '/index',

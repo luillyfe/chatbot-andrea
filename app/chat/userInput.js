@@ -1,5 +1,5 @@
 
-const Chat = function ($scope) {
+const UserInput = function () {
     this.$onInit = () => {
         console.log('Am i still working ?')
     }
@@ -7,8 +7,8 @@ const Chat = function ($scope) {
 
 angular
     .module('chatbot-andrea')
-    .component('chat', {
+    .component('userInput', {
         bindings: {},
-        controller: Chat,
+        controller: UserInput,
         templateUrl: 'chat/user-input.html'
     })

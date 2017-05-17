@@ -1,0 +1,31 @@
+{
+    "andrea": [
+        {
+          "message": "Hi, you!",
+          "timestamp": "1467849600000"
+        },
+        {
+          "message": "It was a long time",
+          "timestamp": "1467849600001"
+        },
+        {
+          "message": "How can I help you?",
+          "timestamp": "1467849600002"
+        }
+    ],
+    "me": [
+      {
+        "message": "Hi, Andrea! how is it going?",
+        "timestamp": "1467849600005"
+      }
+    ],
+    "paging": {
+        "cursors": {
+          "before": "QVFIUmtGenNfcGJpTUZAoRGVPSlVIb09ENW85RTRXSS1JbGZASZAl9YeUROYjJYcnhaMjR1SjQzVGthOWNleTUycE9odTUZD",
+          "after": "QVFIUnVyckZAmeWo4OTlmU2s3WE5fTkozMlJCQ1JKaU83ZAzNhWDZAUdWozdWc1azU3SC0yN3dmX2lybndlWndmRl9VRHQZD"
+        }
+    },
+    "summary": {
+        "total_count": 3
+    }
+}
