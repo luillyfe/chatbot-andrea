@@ -4,6 +4,7 @@
   "description": "A bankig chatbot based on bankbot project.",
   "main": "app.js",
   "scripts": {
+    "postinstall": "jspm install",
     "start": "node ./bin/www",
     "test": "mocha test/*.js"
   },
@@ -24,9 +25,11 @@
   },
   "homepage": "https://github.com/luillyfe/chatbot-andrea#readme",
   "dependencies": {
+    "aws-serverless-express": "^3.0.1",
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
-    "morgan": "^1.8.1"
+    "morgan": "^1.8.1",
+    "watson-developer-cloud": "^2.32.1"
   },
   "devDependencies": {
     "jspm": "^0.16.53"

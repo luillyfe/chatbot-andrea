@@ -53,6 +53,11 @@ h1, h2, h3 {
     padding-top: 1em;
 }
 
+conversation {
+    display: flex;
+    flex-direction: column;
+}
+
 /* ---- Page elements ---- */
 .banner img {
     display: inline-block;

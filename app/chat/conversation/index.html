@@ -1,0 +1,6 @@
+<div class="message andrea" ng-repeat="message in cv.andreaMessages | orderBy:'-timestamp'">
+    <p>{{message.message}}</p>
+</div>
+<div class="message user" ng-repeat="message in cv.meMessages | orderBy:'-timestamp'">
+    <p>{{message.message}}</p>
+</div>

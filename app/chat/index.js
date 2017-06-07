@@ -1,10 +1,12 @@
 const Chat = ['messages', function (ms) {
-    ms
-        .getMessages()
-        .then(messages => {
-            this.andreaMessages = messages.andrea
-            this.meMessages = messages.me
-        })
+    this.$onInit = () => {
+        ms
+            .getMessages()
+            .then(messages => {
+                this.messages = messages
+            })
+    }
+    this.sendMessage = (userInput) => ms.sendMessage(userInput)
 }]
 
 angular

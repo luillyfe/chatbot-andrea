@@ -8,8 +8,18 @@ const Messages = ['$http', function ($http) {
             }).then(res => res.data)
     }
 
+    const sendMessage = (data) => {
+        return $http({
+            method: 'POST',
+            url: '/api/chat/message',
+            data: { msg: data },
+            headers: {'content-Type': 'application/json;charset=utf-8'}
+        }).then((res) => res.data.andreaMsg)
+    }
+
     return {
-        getMessages: getMessages
+        getMessages: getMessages,
+        sendMessage: sendMessage
     }
 }]
 
